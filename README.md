@@ -27,9 +27,8 @@ Soft pastel theme using gradients and matching component colors, with CSS split 
 
 ## Folder Structure
 src/
-├── App.js
-├── App.css
-├── index.js
-└── components/
-├── TodoItem.js
-└── TodoItem.css
+App.js
+App.css
+index.js
+TodoItem.js
+TodoItem.css

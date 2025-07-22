@@ -1,0 +1,52 @@
+.todo-item {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 8px;
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(200, 165, 255, 0.2);
+    border: 1px solid #e91e63cf;
+    transition: transform 0.2s;
+}
+
+.todo-item:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(200, 165, 255, 0.3);
+}
+
+.todo-text {
+  flex-grow: 1;
+  margin-left: 14px;
+  text-align: left;
+  color: #5a4b7f;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #b4b4b4;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #b1d8b7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #70b38e;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: #f993b4;
+  cursor: pointer;
+}

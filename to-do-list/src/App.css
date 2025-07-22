@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: linear-gradient(skyblue,grey);
+  color: #5a4b7f;
+}
+
+/* Shared box for consistent width */
+.shared-box {
+    max-width: 500px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Main Layout */
+.app-wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+/* Title */
+.app-title {
+  font-size: 2.7rem;
+  margin-top:0px;
+}
+
+/* Progress Card */
+.progress-card {
+    background: lavenderblush;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 3px 10px rgba(200, 165, 255, 0.25);
+    border: 1px solid hotpink;
+    margin-bottom: 25px;
+}
+
+.progress-label {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #5a4b7f;
+}
+
+.progress-count {
+  font-size: 1.8rem;
+  color: #30b780;
+  font-weight: bold;
+}
+
+/* Input Section */
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: nowrap; /* force side-by-side */
+}
+
+
+input {
+  flex:1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid hotpink;
+    background: blanchedalmond;
+    font-size: 1rem;
+    outline: none;
+}
+
+button {
+  background-color: #d5aaff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex-shrink: 0; /* prevents it from shrinking weirdly */
+}
+
+
+button:hover {
+  background-color: #a97aff;
+}
+
+/* Task List */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}

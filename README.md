@@ -33,6 +33,5 @@ Soft pastel theme using gradients and matching component colors, with CSS split 
 - TodoItem.js
 - TodoItem.css
 
-<img width="1918" height="872" alt="Screenshot 2025-07-11 194831" src="https://github.com/user-attachments/assets/40499a65-e399-488c-863d-3f8ec5769233" />
-<img width="1919" height="874" alt="Screenshot 2025-07-11 194843" src="https://github.com/user-attachments/assets/f91dcd3c-eba3-4305-af8f-2623943bf771" />
+<img width="1863" height="834" alt="Screenshot 2025-07-23 204723" src="https://github.com/user-attachments/assets/6abc5252-364b-42a7-8bf5-2b04cca413c3" />
 
